@@ -1,0 +1,238 @@
+<p><link href="markdown.css" rel="stylesheet"></link>
+</p>
+<h1>HTML5 Canvas Code Examples</h1>
+<h2>Hello Canvas</h2>
+<p><a href="canvas/helloCanvas.html">run</a>
+</p>
+<iframe width="100" height="100" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/helloCanvas.html"></iframe>
+
+<p>Drawing a blue rectangle. This example demonstrates:
+
+</p>
+<ul>
+<li>Getting the canvas 2D context</li>
+<li>Setting the fill style</li>
+<li>filling a rectangle</li>
+<li>using the Canvas pixel coordinate space</li>
+</ul>
+<h2>Smiley Face</h2>
+<p><a href="canvas/smileyFace.html">run</a>
+</p>
+<iframe width="150" height="150" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+        src="canvas/smileyFace.html"></iframe>
+
+<p>Drawing a smiley face. This example demonstrates:
+
+</p>
+<ul>
+<li>The concept of paths</li>
+<li>Drawing circles and arcs using the Canvas functions <code>beginPath</code>, <code>arc</code>, <code>fill</code>, and <code>stroke</code></li>
+<li>Fill style vs. stroke style</li>
+</ul>
+<h2>Hello Text!</h2>
+<p><a href="canvas/helloText.html">run</a>
+</p>
+<iframe width="400" height="70" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/helloText.html"></iframe>
+
+<p>Drawing the text &quot;Hello Text!&quot; in gray with a black stroke. This example demonstrates:
+
+</p>
+<ul>
+<li>Using the Canvas text API</li>
+<li>Setting the font</li>
+<li>Setting the stroke style</li>
+<li>Filling and stroking text</li>
+</ul>
+<h2>The Sierpinski Triangle</h2>
+<p><a href="canvas/sierpinskiTriangle/index.html">run</a>
+</p>
+<iframe width="400" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/sierpinskiTriangle/index.html"></iframe>
+
+<p>Drawing the Sierpinski Triangle. This example demonstrates:
+
+</p>
+<ul>
+<li>Drawing polygons</li>
+<li>Recursive geometric structures</li>
+</ul>
+<p>See also the <a href="canvas/sierpinskiCarpet/index.html">Sierpinski Carpet</a>
+
+</p>
+<h2>Digital Clock</h2>
+<p><a href="canvas/digitalClock/index.html">run</a>
+</p>
+<iframe width="400" height="70" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/digitalClock/index.html"></iframe>
+
+<p>Drawing the text representing the time of day. This example demonstrates:
+
+</p>
+<ul>
+<li>Periodically clearing and redrawing the canvas using <code>setInterval</code></li>
+<li>Drawing a background color instead of clearing the canvas to white</li>
+<li>Using colors picked by hand with <a href="http://jscolor.com/">JSColor</a></li>
+<li>Using the JavaScript Date API</li>
+<li>Eliminating the margin around the canvas using inline CSS on the <code>body</code> tag</li>
+</ul>
+<h2>Mouse Follower</h2>
+<p><a href="canvas/mouseFollower/index.html">run</a>
+</p>
+<iframe width="520" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/mouseFollower/index.html"></iframe>
+
+<p>Drawing a circle that follows the mouse. This example demonstrates:
+
+</p>
+<ul>
+<li>Responding to mouse events <code>mousemove</code> and <code>mouseout</code></li>
+</ul>
+<h2>Bouncing Ball</h2>
+<p><a href="canvas/bouncingBall/index.html">run</a>
+</p>
+<iframe width="520" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/bouncingBall/index.html"></iframe>
+
+<p>A bouncing ball that can be swung around with the mouse. This example demonstrates:
+
+</p>
+<ul>
+<li>Listening for mouse events <code>mousedown</code>, <code>mouseup</code>, and <code>mouseenter</code></li>
+<li>Animation using <code>requestAnimationFrame</code> (through a <a href="http://paulirish.com/2011/requestanimationframe-for-smart-animating/">cross-browser shim</a>)</li>
+<li>Bouncing physics</li>
+<li>Velocity vectors</li>
+<li>Simulation</li>
+<li>Drawing lines</li>
+<li>Animating only when the mouse is over the Canvas</li>
+</ul>
+<h2>Bouncing Balls</h2>
+<p><a href="canvas/bouncingBalls/index.html">run</a>
+</p>
+<iframe width="520" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/bouncingBalls/index.html"></iframe>
+
+<p>Many bouncing balls that can be swung around with the mouse. This example demonstrates:
+
+</p>
+<ul>
+<li>Multiple graphical objects with different colors</li>
+<li>Detecting which object is under the mouse</li>
+<li>A trailing effect from clearing the canvas with a semi-transparent rectangle</li>
+</ul>
+<h2>Tree Fractal</h2>
+<p><a href="canvas/treeFractal/index.html">run</a>
+</p>
+<iframe width="400" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/treeFractal/index.html"></iframe>
+
+<p>An interactive tree fractal. This example demonstrates:
+
+</p>
+<ul>
+<li>Changing parameters based on the mouse location</li>
+</ul>
+<h2>Starfield</h2>
+<p><a href="canvas/starfield/index.html">run</a>
+</p>
+<iframe width="520" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/starfield/index.html"></iframe>
+
+<p>A starfield with stars moving toward you. The mouse controls the focal length. This example demonstrates:
+
+</p>
+<ul>
+<li>Perspective projection</li>
+<li>The concept of focal length</li>
+</ul>
+<h2>Wave Simulation</h2>
+<p><a href="canvas/waveSimulation1D/index.html">run</a>
+</p>
+<iframe width="520" height="80" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/waveSimulation1D/index.html"></iframe>
+
+<p>A 1-dimensional numeric simulation of <a href="http://en.wikipedia.org/wiki/Wave_equation#Investigation_by_numerical_methods">the Wave equation</a>. This example demonstrates:
+
+</p>
+<ul>
+<li>Resizing the canvas to the window (or containing iFrame)</li>
+<li>Visualizing and interacting with a dynamic simulation</li>
+<li>Transforming (x,y) coordinates between a model space and the display space</li>
+<li>Using multiple <code>script</code> tags</li>
+</ul>
+<h2>2D Wave Simulation</h2>
+<p><a href="canvas/waveSimulation2D/index.html">run</a>
+</p>
+<iframe width="300" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/waveSimulation2D/index.html"></iframe>
+
+<p>A 2-dimensional numeric simulation of <a href="http://en.wikipedia.org/wiki/Wave_equation#Investigation_by_numerical_methods">the Wave equation</a>. This example demonstrates:
+
+</p>
+<ul>
+<li>An interactive grid</li>
+<li>Using luminance to visualize values</li>
+<li>Color object re-use optimization</li>
+</ul>
+<h2>Graphing Calculator</h2>
+<p><a href="canvas/grapher/index.html">run</a>
+</p>
+<iframe width="400" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/grapher/index.html"></iframe>
+
+<p>A grapher that plots equations. This example demonstrates:
+
+</p>
+<ul>
+<li>Use of <code>eval()</code> (which generally should be avoided)</li>
+<li>Use of the hash portion of the URL for storing state</li>
+<li>Drawing simple tick marks</li>
+<li>Animation based on a time variable</li>
+<li>Placement of HTML form elements over a canvas element</li>
+</ul>
+<h2>Multi-touch Fingerpainting</h2>
+<p><a href="mobile/multiTouchFingerpainting/index.html">run</a> (supports multi-touch in iOS devices)
+</p>
+<iframe width="520" height="200" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="mobile/multiTouchFingerpainting/index.html"></iframe>
+
+<p>Multi-touch fingerpainting, where each touch gets its own random color. This example demonstrates:
+
+</p>
+<ul>
+<li>Responding to touch events in iOS devices</li>
+<li>Tracking stateful objects based on touches</li>
+<li>Generating random colors</li>
+</ul>
+<h2>Multi-touch Air Hockey</h2>
+<p><a href="mobile/iPadAirHockey/index.html">run</a> (supports multi-touch in iOS devices)
+</p>
+<iframe width="520" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="mobile/iPadAirHockey/index.html"></iframe>
+
+<p>An air hockey game for the iPad. This example demonstrates:
+
+</p>
+<ul>
+<li>Setting the page to be &quot;mobile Web capable&quot;<ul>
+<li>This makes the page full screen when run from a shortcur saved to the iOS home screen</li>
+</ul>
+</li>
+<li>Using an icon for saving to the home screen</li>
+<li>Setting the viewport to have a fixed scale</li>
+<li>Multi-touch manipulation of multiple objects simultaneously</li>
+</ul>
+<h2>Game of Life</h2>
+<p><a href="canvas/gameOfLife_CoffeeScript/index.html">run</a>
+</p>
+<iframe width="512" height="128" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" 
+        src="canvas/gameOfLife_CoffeeScript/index.html"></iframe>
+
+<p>Conways Game of Life, in CoffeeScript. <a href="">View Source</a>
+
+</p>
+<p><div id="disqus_thread"></div>
+</p>
+<script src="disqus.js"></script>
+
