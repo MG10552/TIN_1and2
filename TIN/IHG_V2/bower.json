@@ -1,0 +1,9 @@
+{
+  "name": "IHG_V2",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "socket.io-client": "~1.3.2"
+  }
+}

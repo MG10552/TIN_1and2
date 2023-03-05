@@ -1,0 +1,31 @@
+doctype html
+html
+  head
+    title Hockey Game
+    meta(name="apple-mobile-web-app-capable", content="yes")
+    meta(name = "viewport", content = "initial-scale = 1, minimum-scale = 1, maximum-scale = 1")
+    link(rel="stylesheet", href="/stylesheets/style.css")
+  </head>
+  body
+    .login
+      input(type="text", id="playerName")
+      button(id="playerNameEnter") Login
+      #messagesForLogin 
+    .rooms 
+      i(href="", id="createRoomAnchor") Create room
+      .create-room
+        input(type="text", id="createRoomName")
+        button(id="createRoomNameButton") Create room
+        #messagesForCreateRoom 
+      .roomList
+        
+    .game
+      #player1 Player 1
+      #player2 Player 2
+      background(src="/images/bariers.jpg")
+      canvas(id="canvas", width="500", height="500")
+    script(src="/bower_components/socket.io-client/socket.io.js")
+    script(src="/javascripts/requestAnimFrame.js")
+    script(src="/javascripts/script.js")
+  </body>
+</html>
