@@ -1,0 +1,26 @@
+REST
+
+//
+Get
+
+wynik
+{
+status: 'ok'
+}
+=============================
+judges
+1. dodawanie sędziego
+POST
+/api/judges/
+{
+
+}
+
+wynik
+{
+    status: 0,
+    message: 'ok',
+    data: {
+        id: //id sędziego
+        }
+}
